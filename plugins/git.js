@@ -11,19 +11,19 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.GL}, (async (message
     var rashi = await axios.get(config.RASHI, { responseType: 'arraybuffer' })
 
 
-    await message.sendMessage(Buffer(rashi.data), MessageType.image, {quoted: message.data , thumbnail: fs.readFileSync('./image/r.jpg'), mimetype: Mimetype.png, caption: `*≈≈≈≈≈≈≈Links ☟︎︎︎≈≈≈≈≈≈≈≈*
+    await message.sendMessage(Buffer(rashi.data), MessageType.image, {quoted: message.data , thumbnail: fs.readFileSync('./image/r.jpg'), mimetype: Mimetype.png, caption: `*≈≈≈≈≈≈≈Credits ☟︎︎︎≈≈≈≈≈≈≈≈*
  
 
-        *Github link        _https://github.com/Ajmal342/Zaramwol_*
+        *Github link        https://github.com/zim-bot*
  
 
-       *Audio commads-1     _https://github.com/Ajmal342/media_*
+       *Zim-bot by      Team Zim-bots*
  
  
-       *Audio commads-2     _https://tinyurl.com/yejp9qkh_*
+       *Ngeyi     Muchiramba*
   
   
-      *Sticker commads      _https://tinyurl.com/yejlp33d_*
+      *Developer      DripsMemes*
 `}) 
 
 })); 
